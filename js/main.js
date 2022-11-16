@@ -1,4 +1,5 @@
 "use strict"
+//aggiungo una struttura per collegarmi allo script di vue js//
 const { createApp } = Vue
 
   createApp({
