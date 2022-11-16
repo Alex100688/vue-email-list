@@ -5,6 +5,7 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
+        //creo una lista vuota di array//
         listEmail: []
       }
     },
