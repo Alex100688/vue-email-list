@@ -15,9 +15,12 @@
     <div id="app">
         <h1>Lista email Boolean</h1>
         <!-- eseguo un ciclo v-for -->
-        <ul v-for="(list, index) in listEmail">
-            <li>{{list}}</li>
+        <ul v-if="listEmail.length === 10">
+            <li v-for="(list, index) in listEmail">{{list}}</li>
         </ul>
+        <div v-else="caricamento in corso"></div>
+            
+       
     </div>
     <!-- scriper per main.js -->
     <script src="js/main.js"></script>
